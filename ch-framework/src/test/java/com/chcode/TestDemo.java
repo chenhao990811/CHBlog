@@ -29,5 +29,6 @@ public class TestDemo {
 
 //        System.out.println("测试合并分支");
         System.out.println("dev分支，测试合并冲突");
+        System.out.println("master分支，测试合并冲突");
     }
 }
