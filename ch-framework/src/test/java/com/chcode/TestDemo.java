@@ -27,6 +27,7 @@ public class TestDemo {
         String encode = bCryptPasswordEncoder.encode("1234");
         System.out.println(encode);
 
-        System.out.println("测试合并分支");
+//        System.out.println("测试合并分支");
+        System.out.println("master分支，测试合并冲突");
     }
 }
