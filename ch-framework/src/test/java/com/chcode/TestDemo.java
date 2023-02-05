@@ -30,5 +30,6 @@ public class TestDemo {
 //        System.out.println("测试合并分支");
         System.out.println("dev分支，测试合并冲突");
         System.out.println("master分支，测试合并冲突");
+        System.out.println("代码已上传GitHub，在GitHub中修改代码，测试拉取远程库中的代码");
     }
 }
