@@ -27,6 +27,7 @@ import java.io.InputStream;
 public class OssUploadService implements UploadService {
     @Override
     public ResponseResult uploadImg(MultipartFile img) {
+        System.out.println("测试git切换版本");
         // TODO 判断文件类型 （大小在yml中配置了）
         //获取原始文件名
         String originalFilename = img.getOriginalFilename();
