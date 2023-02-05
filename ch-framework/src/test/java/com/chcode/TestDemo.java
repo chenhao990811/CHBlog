@@ -32,5 +32,6 @@ public class TestDemo {
         System.out.println("master分支，测试合并冲突");
         System.out.println("代码已上传GitHub，在GitHub中修改代码，测试拉取远程库中的代码");
         System.out.println("配置了码云仓库，测试push");
+        System.out.println("修改了码云个人空间地址，测试push");
     }
 }
