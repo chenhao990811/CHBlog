@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.chcode.mapper.TagMapper">
+
+    <update id="reorderId">
+        ALTER TABLE `ch_tag` DROP `id`;
+        ALTER TABLE `ch_tag` ADD `id` bigint(20) PRIMARY KEY NOT NULL AUTO_INCREMENT FIRST;
+    </update>
+    <delete id="deleteTag">
+        update ch_tag set del_flag=1 where id = #{id} and del_flag=0
+    </delete>
+</mapper>
